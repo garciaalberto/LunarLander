@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lunar Lander</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Juego lunar lander">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+    <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/s.css'>
+    <link rel="icon" type="img/png" href="img/nave.png" />
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <div class="d">
+        <img src="./img/luna.PNG" alt="Suelo lunar" />
+    </div>
+    <div id="nave">
+        <img src="img/nave_apagada.png" id="imgNave" alt="img nave">
+    </div>
+    <div class="a">
+
+        <div id="showm">show menu</div>
+        <div id="cpanel">
+            <div class="panel">Velocidad:<br><b><span id="velocidad">100</span></b> m/s.</div>
+            <div class="panel">Fuel:<br><b><span id="fuel">100</span></b> %</div>
+            <div class="panel">Altura:<br><b><span id="altura">60</span></b> m.</div>
+            <img src="img/tierra.png" id="tierra" alt="tierra">
+        </div>
+    </div>
+    <div class="b">
+        <img src="img/flag.png" id="flag" alt="bandera">
+        <img src="img/win.png" id="win" alt="mensajewin">
+        <img src="img/fail.png" id="fail" alt="mensajefail">
+    </div>
+
+    <div class="c">
+        <div id="menu">
+            <div onclick="reanudar();" id="reanudar">
+            </div>
+            <div onclick="pausar()" id="pausa"></div>
+            <div onclick="reiniciarJuego();" id="reinicia">
+            </div>
+            <div onclick="mostrarInstrucciones();" id="instrucciones">
+            </div>
+        </div>
+        </a>
+    </div>
+    </div>
+    <div class="d">.</div>
+    </div>
+
+    <div id="menuInstrucciones">
+        <a onclick="ocultarInstrucciones();"><img id="cerrar" src="img/cerrar.png"></a>
+        <h3>Instrucciones</h3>
+        <p> El juego consiste en aterrizar la nave espacial en la superficie lunar. <br> <br> Para ello deberemos pulsar cualquier botón de el teclado para activar la nave y hacer que esta aterrice suavemente<br>(A una velocidad inferior a los 5 m/s.) sobre
+            la superficie lunar, en caso contrario la misión espacial<br>fracasará estrepitosamente.
+        </p>
+        <a href="about.html"><button><h3>About...</h3></button></a>
+    </div>
+</body>
+
+</html>

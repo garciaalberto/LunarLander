@@ -1,0 +1,282 @@
+            html {
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            body {
+                background-image: url("../img/fondo_espacial.jpg");
+                background-size: 100%;
+                background-repeat: repeat;
+                margin: 0;
+            }
+            
+            .c {
+                display: block !important
+            }
+            
+            .a,
+            .b,
+            .c {
+                display: inline-block;
+                width: 33.33%;
+                height: 100%;
+                float: left;
+            }
+            
+            .d {
+                bottom: -2%;
+                position: absolute;
+                width: 100%;
+            }
+            
+            .d img {
+                width: 100%;
+            }
+            
+            #nave {
+                text-align: center;
+                position: fixed;
+                top: 10%;
+                width: 100%;
+                height: 20%
+            }
+            
+            #nave img {
+                height: 100%;
+            }
+            
+            #cpanel {
+                color: white;
+            }
+            
+            #hidem,
+            #showm {
+                display: none
+            }
+            
+            #menu {
+                position: fixed;
+                right: 0;
+                top: 0;
+                width: 50%;
+                height: 20%;
+                color: white;
+            }
+            
+            .panel {
+                width: auto;
+                height: auto;
+                max-width: 100px;
+                background-color: #99cc33;
+                margin: 5px;
+                border-style: outset;
+                border-color: #7ba429;
+                font-size: 100%;
+                padding: 2px;
+                margin-bottom: 15px;
+            }
+            
+            #reanudar:active {
+                border-style: inset;
+            }
+            
+            #reanudar:hover {
+                background-color: #7ba429;
+                font-size: 100%;
+            }
+            
+            #pausa:active {
+                border-style: inset;
+            }
+            
+            #pausa:hover {
+                background-color: #7ba429;
+                font-size: 100%;
+            }
+            
+            #reinicia:active {
+                border-style: inset;
+            }
+            
+            #reinicia:hover {
+                background-color: #7ba429;
+                font-size: 100%;
+            }
+            
+            #instrucciones:active {
+                border-style: inset;
+            }
+            
+            #instrucciones:hover {
+                background-color: #7ba429;
+                font-size: 100%;
+            }
+            
+            #close:active {
+                border-style: inset;
+            }
+            
+            #close:hover {
+                background-color: #7ba429;
+            }
+            
+            #reanudar {
+                border-style: outset;
+                background-color: #99cc33;
+                display: none;
+                float: right;
+                border-color: #7ba429;
+                margin: 10px;
+                margin-top: 5%;
+                color: black;
+                text-align: center;
+                width: 60px;
+                height: 60px;
+                background-image: url("../img/icono_play.PNG");
+                background-repeat: no-repeat;
+                background-size: 50%;
+                background-position: 50% 50%;
+                pointer-events: auto;
+            }
+            
+            #reanudar p {
+                margin-top: 0px;
+            }
+            
+            #pausa {
+                border-style: outset;
+                background-color: #99cc33;
+                display: inline-block;
+                float: right;
+                border-color: #7ba429;
+                margin: 10px;
+                margin-top: 5%;
+                color: black;
+                text-align: center;
+                font-size: 0%;
+                width: 60px;
+                height: 60px;
+                background-image: url("../img/icono_pausa.PNG");
+                background-repeat: no-repeat;
+                background-size: 50%;
+                background-position: 50% 50%;
+            }
+            
+            #reinicia {
+                border-style: outset;
+                background-color: #99cc33;
+                display: inline-block;
+                float: right;
+                border-color: #7ba429;
+                width: 60px;
+                height: 60px;
+                font-size: 0%;
+                color: black;
+                text-align: center;
+                vertical-align: text-top;
+                margin: 10px;
+                margin-top: 5%;
+                background-image: url("../img/icono_retry.PNG");
+                background-repeat: no-repeat;
+                background-size: 50%;
+                background-position: 50% 50%;
+            }
+            
+            #reinicia p {
+                margin-top: 0px;
+            }
+            
+            #instrucciones {
+                border-style: outset;
+                background-color: #99cc33;
+                display: inline-block;
+                float: right;
+                border-color: #7ba429;
+                margin: 10px;
+                margin-top: 5%;
+                width: 60px;
+                height: 60px;
+                color: black;
+                text-align: center;
+                font-size: 0%;
+                background-image: url("../img/icono_menu.png");
+                background-repeat: no-repeat;
+                background-size: 50%;
+                background-position: 50% 50%;
+            }
+            
+            #instrucciones p {
+                margin-top: 0px;
+            }
+            
+            #menuInstrucciones {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                background-image: url("../img/fondo.jpg");
+                text-align: center;
+                border-style: outset;
+                position: absolute;
+                display: none;
+                margin-right: 0%;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            
+            #menuInstrucciones b {
+                border-style: outset;
+            }
+            
+            #menuInstrucciones p {
+                margin: 2%;
+            }
+            
+            #cerrar {
+                width: 15%;
+                max-width: 50px;
+                position: absolute;
+                top: 2px;
+                right: 2px;
+            }
+            
+            #imgNave {
+                height: 100%;
+                display: block;
+                margin: auto;
+            }
+            
+            #tierra {
+                position: fixed;
+                height: 20%;
+                display: block;
+                margin-top: 2%;
+                margin-left: 15%;
+            }
+            
+            #flag {
+                display: none;
+                position: fixed;
+                max-width: 70px;
+                max-height: 70px;
+                margin-top: 115%;
+                margin-left: 22%;
+            }
+            
+            #win {
+                display: none;
+                position: fixed;
+                max-width: 70%;
+                max-height: 70%;
+                margin-top: 0%;
+                margin-left: 0%;
+            }
+            
+            #fail {
+                display: none;
+                position: fixed;
+                max-width: 70%;
+                max-height: 70%;
+                margin-top: 0%;
+                margin-left: 0%;
+            }
